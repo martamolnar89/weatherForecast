@@ -1,0 +1,282 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeScreen initial render with fetch error message: HomeScreenFetchError 1`] = `
+<RCTScrollView
+  contentInsetAdjustmentBehavior="automatic"
+  refreshControl={
+    <RefreshControlMock
+      onRefresh={[Function]}
+      refreshing={false}
+    />
+  }
+  style={
+    Object {
+      "flex": 1,
+      "minHeight": 1274,
+    }
+  }
+>
+  <RCTRefreshControl />
+  <View>
+    <View
+      style={
+        Object {
+          "justifyContent": "center",
+          "paddingHorizontal": 20,
+          "paddingVertical": 20,
+        }
+      }
+    >
+      <ActivityIndicator
+        animating={true}
+        color="gray"
+        hidesWhenStopped={true}
+        size="large"
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "justifyContent": "flex-start",
+          "paddingHorizontal": 20,
+          "paddingVertical": 20,
+        }
+      }
+      testID="fetchErrorView"
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 20,
+            "marginVertical": 10,
+          }
+        }
+      >
+        FAILED
+      </Text>
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`HomeScreen initial render: HomeScreen 1`] = `
+<RCTScrollView
+  contentInsetAdjustmentBehavior="automatic"
+  refreshControl={
+    <RefreshControlMock
+      onRefresh={[Function]}
+      refreshing={false}
+    />
+  }
+  style={
+    Object {
+      "flex": 1,
+      "minHeight": 1274,
+    }
+  }
+>
+  <RCTRefreshControl />
+  <View>
+    <View
+      style={
+        Object {
+          "justifyContent": "center",
+          "paddingHorizontal": 20,
+          "paddingVertical": 20,
+        }
+      }
+    >
+      <ActivityIndicator
+        animating={true}
+        color="gray"
+        hidesWhenStopped={true}
+        size="large"
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "lightgray",
+          "paddingHorizontal": 20,
+          "paddingVertical": 10,
+        }
+      }
+      testID="header"
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 20,
+            "marginVertical": 10,
+          }
+        }
+      >
+        San Francisco
+         weather forecast
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 20,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 20,
+            "marginVertical": 10,
+          }
+        }
+      >
+        2019-11-28 15:00:00
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginHorizontal": 20,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "http://openweathermap.org/img/wn/10n@2x.png",
+            }
+          }
+          style={
+            Object {
+              "height": 50,
+              "width": 50,
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "fontSize": 20,
+              "marginVertical": 10,
+            }
+          }
+        >
+          3.57
+           ℃ 
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontSize": 20,
+              "marginVertical": 10,
+            }
+          }
+        >
+          Rain
+        </Text>
+        <View
+          style={
+            Object {
+              "flexDirection": "column",
+              "marginHorizontal": 20,
+              "marginVertical": 5,
+            }
+          }
+        >
+          <Text>
+            min: 
+            3.57
+             ℃ 
+          </Text>
+          <Text>
+            max: 
+            6.16
+             ℃
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 20,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 20,
+            "marginVertical": 10,
+          }
+        }
+      >
+        2019-11-28 18:00:00
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginHorizontal": 20,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "http://openweathermap.org/img/wn/04d@2x.png",
+            }
+          }
+          style={
+            Object {
+              "height": 50,
+              "width": 50,
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "fontSize": 20,
+              "marginVertical": 10,
+            }
+          }
+        >
+          5.14
+           ℃ 
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontSize": 20,
+              "marginVertical": 10,
+            }
+          }
+        >
+          Clouds
+        </Text>
+        <View
+          style={
+            Object {
+              "flexDirection": "column",
+              "marginHorizontal": 20,
+              "marginVertical": 5,
+            }
+          }
+        >
+          <Text>
+            min: 
+            5.14
+             ℃ 
+          </Text>
+          <Text>
+            max: 
+            7.08
+             ℃
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;
